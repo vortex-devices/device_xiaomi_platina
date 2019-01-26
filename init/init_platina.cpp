@@ -60,7 +60,7 @@ static void init_finger_print_properties()
     std::string buf;
 
     std::string product = GetProperty("ro.product.name", "");
-    if (product.find("wayne") == std::string::npos)
+    if (product.find("platina") == std::string::npos)
         return;
 
     fin.open("/proc/cmdline");
