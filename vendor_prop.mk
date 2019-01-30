@@ -1,4 +1,10 @@
 # System prop from miui
+
+# Enable CAMERA2API by default in vendor
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.camera.HAL3.enabled=1 \
+    persist.vendor.eis.enabled=1
+
 # SAR Sensor Fusion
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.xiaomi.sar_fusion=true \
