@@ -356,7 +356,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
-            <name>IColor</name>
+            <name>@1.0::IColor/default</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -365,7 +365,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
-            <name>ILineagePower</name>
+            <name>@1.0::ILineagePower/default</name>
             <instance>default</instance>
         </interface>
     </hal>
