@@ -1,3 +1,15 @@
+## Xiaomi Mi 8 Lite device tree:
+Base: mko-mr1
+Credits:
+- @lihonglinglory
+- @Lunarixus
+- @rsyhan
+- @ManoloRey
+- @brunorochaa
+And any others I have missed:P
+
+----------------------------------------------------------------------
+
 Copyright 2018 - The Mokee Project
 
 mko-mr1 device tree for Xiaomi MI 8 Lite
