@@ -280,6 +280,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.platina
 
+# LiveDisplay
+    vendor.lineage.livedisplay@1.0-service-sdm \
+    vendor.lineage.livedisplay-V1.0-java
+
+PRODUCT_BOOT_JARS += \
+    vendor.lineage.livedisplay-V1.0-java
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
