@@ -7,3 +7,6 @@ allow system_server sysfs:file { read open getattr};
 allow system_server vendor_camera_prop:file { read open getattr};
 allow system_server vendor_default_prop:file { read open getattr};
 allow system_server dalvikcache_data_file:file { execute };
+# DT2W
+allow system_server sysfs_dt2w:dir search;
+allow system_server sysfs_dt2w:file rw_file_perms;

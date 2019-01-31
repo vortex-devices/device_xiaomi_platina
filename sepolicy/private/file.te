@@ -3,3 +3,7 @@ type sysfs_fps_proximity, sysfs_type, fs_type;
 
 # Touchscreen
 type sysfs_tp_revkeys, sysfs_type, fs_type;
+
+# DT2W
+type sysfs_dt2w, sysfs_type, fs_type;
+
