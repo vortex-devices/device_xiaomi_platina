@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-16.0"
+  },
+  {
+    "remote": "github",
+    "repository": "nysadev/android_vendor_xiaomi_platina",
+    "target_path": "vendor/xiaomi/platina",
+    "branch": "rr-7.0"
+  },
+  {
+    "remote": "github",
+    "repository": "nysadev/android_kernel_xiaomi_platina",
+    "target_path": "kernel/xiaomi/platina",
+    "branch": "mkp"
+  }
+]
