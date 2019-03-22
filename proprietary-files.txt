@@ -56,6 +56,8 @@ vendor/lib/com.qualcomm.qti.ant@1.0_vendor.so
 vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
 vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
+
+# AptX - from Nokia 7 Plus Onyx_00WW-user 9 PPR1.180610.011 00WW_3_22C release-keys
 vendor/lib64/libaptX_encoder.so|22f5749edb5099526788c22708099a7791dd837f
 vendor/lib64/libaptXHD_encoder.so|c4ad4d6d7615f7df3ea1a4be5c6dae8a8c8ee8b1
 
@@ -230,6 +232,7 @@ vendor/lib/libqomx_core.so
 vendor/lib/libarcsoft_beautyshot.so
 vendor/lib/libarcsoft_dualcam_refocus.so
 vendor/lib/libarcsoft_high_dynamic_range.so
+vendor/lib/libarcsoft_supernight.so
 vendor/lib/libcamera_scene.so
 vendor/lib/libc++_shared.so
 vendor/lib/libcdsprpc.so
@@ -477,7 +480,6 @@ vendor/lib/libmmcamera_truly_cma481_eeprom.so
 vendor/lib/libmmcamera_truly_cmb433_eeprom.so
 vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmcamera_tuning.so
-
 # Camera actuators
 vendor/lib/libactuator_ad5816g.so
 vendor/lib/libactuator_ad5823.so
@@ -1475,6 +1477,7 @@ vendor/lib/libchromatix_platina_imx363_ofilm_cpp_snapshot_bokeh.so
 vendor/lib/libchromatix_platina_imx363_ofilm_cpp_snapshot_downscale.so
 vendor/lib/libchromatix_platina_imx363_ofilm_cpp_snapshot_hdr.so
 vendor/lib/libchromatix_platina_imx363_ofilm_cpp_snapshot_hht.so
+vendor/lib/libchromatix_platina_imx363_ofilm_cpp_snapshot_sn.so
 vendor/lib/libchromatix_platina_imx363_ofilm_cpp_snapshot.so
 vendor/lib/libchromatix_platina_imx363_ofilm_cpp_snapshot_sr.so
 vendor/lib/libchromatix_platina_imx363_ofilm_cpp_snapshot_upscale.so
@@ -1485,6 +1488,7 @@ vendor/lib/libchromatix_platina_imx363_ofilm_cpp_video_weixin.so
 vendor/lib/libchromatix_platina_imx363_ofilm_default_preview_3a.so
 vendor/lib/libchromatix_platina_imx363_ofilm_default_video_3a.so
 vendor/lib/libchromatix_platina_imx363_ofilm_default_video.so
+vendor/lib/libchromatix_platina_imx363_ofilm_fullsize_preview_3a_sn.so
 vendor/lib/libchromatix_platina_imx363_ofilm_fullsize_preview_3a.so
 vendor/lib/libchromatix_platina_imx363_ofilm_fullsize_video_3a.so
 vendor/lib/libchromatix_platina_imx363_ofilm_hfr_120_3a.so
@@ -1499,6 +1503,7 @@ vendor/lib/libchromatix_platina_imx363_ofilm_preview_bokeh.so
 vendor/lib/libchromatix_platina_imx363_ofilm_preview.so
 vendor/lib/libchromatix_platina_imx363_ofilm_snapshot_bokeh.so
 vendor/lib/libchromatix_platina_imx363_ofilm_snapshot_panorama.so
+vendor/lib/libchromatix_platina_imx363_ofilm_snapshot_sn.so
 vendor/lib/libchromatix_platina_imx363_ofilm_snapshot.so
 vendor/lib/libchromatix_platina_imx363_ofilm_video_4k.so
 vendor/lib/libchromatix_platina_imx363_ofilm_video.so
@@ -1520,6 +1525,7 @@ vendor/lib/libchromatix_platina_imx363_sunny_cpp_snapshot_bokeh.so
 vendor/lib/libchromatix_platina_imx363_sunny_cpp_snapshot_downscale.so
 vendor/lib/libchromatix_platina_imx363_sunny_cpp_snapshot_hdr.so
 vendor/lib/libchromatix_platina_imx363_sunny_cpp_snapshot_hht.so
+vendor/lib/libchromatix_platina_imx363_sunny_cpp_snapshot_sn.so
 vendor/lib/libchromatix_platina_imx363_sunny_cpp_snapshot.so
 vendor/lib/libchromatix_platina_imx363_sunny_cpp_snapshot_sr.so
 vendor/lib/libchromatix_platina_imx363_sunny_cpp_snapshot_upscale.so
@@ -1530,6 +1536,7 @@ vendor/lib/libchromatix_platina_imx363_sunny_cpp_video_weixin.so
 vendor/lib/libchromatix_platina_imx363_sunny_default_preview_3a.so
 vendor/lib/libchromatix_platina_imx363_sunny_default_video_3a.so
 vendor/lib/libchromatix_platina_imx363_sunny_default_video.so
+vendor/lib/libchromatix_platina_imx363_sunny_fullsize_preview_3a_sn.so
 vendor/lib/libchromatix_platina_imx363_sunny_fullsize_preview_3a.so
 vendor/lib/libchromatix_platina_imx363_sunny_fullsize_video_3a.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_1080p_preview_3a.so
@@ -1548,6 +1555,7 @@ vendor/lib/libchromatix_platina_imx363_sunny_global_cpp_snapshot_bokeh.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_cpp_snapshot_downscale.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_cpp_snapshot_hdr.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_cpp_snapshot_hht.so
+vendor/lib/libchromatix_platina_imx363_sunny_global_cpp_snapshot_sn.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_cpp_snapshot.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_cpp_snapshot_sr.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_cpp_snapshot_upscale.so
@@ -1558,6 +1566,7 @@ vendor/lib/libchromatix_platina_imx363_sunny_global_cpp_video_weixin.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_default_preview_3a.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_default_video_3a.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_default_video.so
+vendor/lib/libchromatix_platina_imx363_sunny_global_fullsize_preview_3a_sn.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_fullsize_preview_3a.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_fullsize_video_3a.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_hfr_120_3a.so
@@ -1572,6 +1581,7 @@ vendor/lib/libchromatix_platina_imx363_sunny_global_preview_bokeh.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_preview.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_snapshot_bokeh.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_snapshot_panorama.so
+vendor/lib/libchromatix_platina_imx363_sunny_global_snapshot_sn.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_snapshot.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_video_4k.so
 vendor/lib/libchromatix_platina_imx363_sunny_global_video.so
@@ -1589,6 +1599,7 @@ vendor/lib/libchromatix_platina_imx363_sunny_preview_bokeh.so
 vendor/lib/libchromatix_platina_imx363_sunny_preview.so
 vendor/lib/libchromatix_platina_imx363_sunny_snapshot_bokeh.so
 vendor/lib/libchromatix_platina_imx363_sunny_snapshot_panorama.so
+vendor/lib/libchromatix_platina_imx363_sunny_snapshot_sn.so
 vendor/lib/libchromatix_platina_imx363_sunny_snapshot.so
 vendor/lib/libchromatix_platina_imx363_sunny_video_4k.so
 vendor/lib/libchromatix_platina_imx363_sunny_video.so
@@ -2017,7 +2028,6 @@ vendor/etc/csot_fhd_video_dsi_panel_mi.xml
 vendor/etc/tianma_fhd_video_dsi_panel_mi.xml
 vendor/etc/sdr_config.cfg
 vendor/etc/hdr_config.cfg
-
 # DPM
 bin/dpmd
 etc/dpm/dpm.conf
@@ -2221,7 +2231,6 @@ vendor/lib/libOpenCL.so
 vendor/lib/librs_adreno_sha1.so
 vendor/lib/librs_adreno.so
 vendor/lib/libRSDriver_adreno.so
-
 # Graphics (SDM)
 vendor/lib/libqseed3.so
 vendor/lib/libsdm-color.so
@@ -2345,10 +2354,6 @@ vendor/bin/mlipayd@1.1
 vendor/lib64/libmlipay@1.1.so
 
 # Perf
-lib/vendor.qti.hardware.iop@1.0.so
-lib/vendor.qti.hardware.iop@2.0.so
-lib64/vendor.qti.hardware.iop@1.0.so
-lib64/vendor.qti.hardware.iop@2.0.so
 vendor/bin/energy-awareness
 vendor/bin/msm_irqbalance
 vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
@@ -2359,38 +2364,13 @@ vendor/lib/libqti-perfd-client.so
 vendor/lib/libqti-perfd.so
 vendor/lib/libqti-util.so
 vendor/lib/libqti-utils.so
-vendor/lib/libqti-iopd-client.so
 vendor/lib/vendor.qti.hardware.perf@1.0.so
-vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
-vendor/lib/vendor.qti.hardware.iop@1.0.so
-vendor/lib/vendor.qti.hardware.iop@2.0.so
 vendor/lib64/libperfgluelayer.so
 vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
 vendor/lib64/libqti-utils.so
 vendor/lib64/vendor.qti.hardware.perf@1.0.so
-vendor/lib64/libqti-iopd-client.so
-vendor/lib64/vendor.qti.hardware.iop@1.0.so
-vendor/lib64/vendor.qti.hardware.iop@2.0.so
-vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so
-
-# QTI Performance libs
--framework/QPerformance.jar
--framework/UxPerformance.jar
-bin/perfservice
-etc/init/perfservice.rc
-etc/perf/whitelistedapps.xml
-lib/libqti-at.so
-lib/libqti-perfd-client_system.so
-lib/libqti-iopd-client_system.so
-lib/libqti-util_system.so
-lib/libqti_performance.so
-lib64/libqti-at.so
-lib64/libqti-perfd-client_system.so
-lib64/libqti-iopd-client_system.so
-lib64/libqti-util_system.so
-lib64/libqti_performance.so
 
 # Peripheral manager
 vendor/bin/pm-proxy
@@ -2505,7 +2485,7 @@ vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so
 vendor/radio/qcril_database/qcril.db
 
-# IMS
+# Radio - IMS 
 -priv-app/ims/ims.apk
 -app/imssettings/imssettings.apk:vendor/app/imssettings/imssettings.apk
 etc/permissions/com.qualcomm.qti.imscmservice.xml
