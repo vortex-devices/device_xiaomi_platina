@@ -55,10 +55,6 @@ persist.pd_locater_debug            u:object_r:vendor_pd_locater_dbg_prop:s0
 persist.sys.thermal.                u:object_r:thermal_prop:s0
 sys.thermal.                        u:object_r:thermal_prop:s0
 
-# Camera HAL3
-persist.vendor.camera.HAL3.          u:object_r:camera_prop:s0
-persist.vendor.camera.eis.           u:object_r:camera_prop:s0
-
 # vendor_default_prop
 fpc_kpi                             u:object_r:vendor_default_prop:s0
 gpu.stats.debug.level               u:object_r:vendor_default_prop:s0
