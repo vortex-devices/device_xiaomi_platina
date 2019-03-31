@@ -13,8 +13,8 @@
   },
   {
     "remote": "github",
-    "repository": "nysadev/android_kernel_xiaomi_platina",
+    "repository": "nysadev/bellatrix-4.4",
     "target_path": "kernel/xiaomi/platina",
-    "branch": "mkp"
+    "branch": "pie-new"
   }
 ]
