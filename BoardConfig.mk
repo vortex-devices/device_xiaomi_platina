@@ -58,7 +58,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/xiaomi/platina
-TARGET_KERNEL_CONFIG := bellatrix_platina_defconfig
+TARGET_KERNEL_CONFIG := bellatrix_defconfig
 
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
