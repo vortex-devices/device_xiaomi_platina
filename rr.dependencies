@@ -15,6 +15,6 @@
     "remote": "github",
     "repository": "nysadev/bellatrix-4.4",
     "target_path": "kernel/xiaomi/platina",
-    "branch": "pie-new"
+    "branch": "pie"
   }
 ]
