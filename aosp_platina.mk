@@ -23,12 +23,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit from platina device
 $(call inherit-product, device/xiaomi/platina/device.mk)
 
-# Inherit from custom vendor
-# $(call inherit-product, vendor/MiuiCamera/config.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-$(call inherit-product, vendor/vortex/config/common.mk)
+# Installs gsi keys into ramdisk, to boot a GSI with verified boot.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
-PRODUCT_NAME := vortex_platina
+PRODUCT_NAME := aosp_platina
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := platina
 PRODUCT_MANUFACTURER := Xiaomi
