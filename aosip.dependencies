@@ -1,20 +1,15 @@
 [
   {
-    "remote": "github",
     "repository": "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
     "branch": "lineage-16.0"
   },
   {
-    "remote": "github",
-    "repository": "nysadev/android_vendor_xiaomi_platina",
+    "repository": "proprietary_vendor_xiaomi_platina",
     "target_path": "vendor/xiaomi/platina",
-    "branch": "master"
   },
   {
-    "remote": "github",
-    "repository": "nysadev/bellatrix-4.4",
+    "repository": "kernel_xiaomi_platina",
     "target_path": "kernel/xiaomi/platina",
-    "branch": "pie-rework"
   }
 ]

@@ -25,7 +25,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     sdm.idle_time=1100
 
-
 # System.prop for sdm660
 PRODUCT_PROPERTY_OVERRIDES += \
     rild.libpath=/system/vendor/lib64/libril-qc-qmi-1.so \
@@ -271,10 +270,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Xiaomi pick up gusture
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.sensors.pickup=true
-
-# HAL1 apps list
-PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android
 
 # Expose aux camera for below packages
 PRODUCT_PROPERTY_OVERRIDES += \
