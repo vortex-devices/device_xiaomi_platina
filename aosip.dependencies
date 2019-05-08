@@ -6,10 +6,10 @@
   },
   {
     "repository": "proprietary_vendor_xiaomi_platina",
-    "target_path": "vendor/xiaomi/platina",
+    "target_path": "vendor/xiaomi/platina"
   },
   {
     "repository": "kernel_xiaomi_platina",
-    "target_path": "kernel/xiaomi/platina",
+    "target_path": "kernel/xiaomi/platina"
   }
 ]
