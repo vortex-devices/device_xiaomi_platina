@@ -72,9 +72,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
 
-PRODUCT_PACKAGES += \
-    NoCutoutOverlay
-
 # Properties
 -include $(LOCAL_PATH)/device-props.mk
 
