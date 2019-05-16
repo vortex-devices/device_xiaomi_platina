@@ -271,10 +271,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.sensors.pickup=true
 
+# HAL1 apps list
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android
+
 # Expose aux camera for below packages
-PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi,org.lineageos.snap
-    camera.hal1.packagelist=com.whatsapp,com.facebook.katana,com.instagram.android
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi,org.lineageos.snap
+#    camera.hal1.packagelist=com.whatsapp,com.facebook.katana,com.instagram.android
 
 # Disable UBWC for camera
 PRODUCT_PROPERTY_OVERRIDES += \
