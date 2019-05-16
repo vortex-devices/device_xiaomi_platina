@@ -2485,6 +2485,12 @@ vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so
 vendor/radio/qcril_database/qcril.db
 
+# SDM
+lib64/libsdm-disp-apis.
+
+# Display postprocessing
+lib64/vendor.display.color@1.0.so
+
 # Radio - IMS 
 -priv-app/ims/ims.apk
 -app/imssettings/imssettings.apk:vendor/app/imssettings/imssettings.apk

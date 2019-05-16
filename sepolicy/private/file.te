@@ -1,2 +1,6 @@
 # Fingerprint
 type sysfs_fps_proximity, sysfs_type, fs_type;
+
+# live display
+type display_data_file, data_file_type, core_data_file_type, file_type;
+type pps_socket, file_type; 

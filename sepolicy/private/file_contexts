@@ -1,3 +1,13 @@
 # Fingerprint
 /sys/devices/soc/soc:fingerprint_fpc/proximity_state                        u:object_r:sysfs_fps_proximity:s0
 /sys/devices/soc/soc:fingerprint_goodix/proximity_state                     u:object_r:sysfs_fps_proximity:s0
+
+# Data files
+/data/display(/.*)?                 u:object_r:display_data_file:s0
+
+# Lights HAL
+/system/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_sdm845    u:object_r:hal_light_sdm845_exec:s0
+
+# LiveDisplay HAL
+/system/bin/hw/lineage\.livedisplay@2\.0-service-sdm                   u:object_r:shal_livedisplay_default_exec:s0
+/system/bin/hw/lineage\.livedisplay@2\.0-service\.xiaomi_sdm845        u:object_r:shal_livedisplay_default_exec:s0 
