@@ -2486,7 +2486,7 @@ vendor/lib64/vendor.qti.hardware.radio.am@1.0.so
 vendor/radio/qcril_database/qcril.db
 
 # SDM
-lib64/libsdm-disp-apis.
+lib64/libsdm-disp-apis.so
 
 # Display postprocessing
 lib64/vendor.display.color@1.0.so
