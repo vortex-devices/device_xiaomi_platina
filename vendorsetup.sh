@@ -1,3 +1,3 @@
-add_lunch_combo aosip_platina-userdebug
-add_lunch_combo aosip_platina-user
-add_lunch_combo aosip_platina-eng
+add_lunch_combo aosp_platina-userdebug
+add_lunch_combo aosp_platina-user
+add_lunch_combo aosp_platina-eng
