@@ -554,5 +554,8 @@
     <!-- Should we filter any display modes which are unampped? -->
     <bool name="config_filterDisplayModes">true</bool>
 
+    <!-- Specify custom blanking delay of the display -->
+    <integer name="config_screen_off_delay">0</integer>
+
     
 </resources>
