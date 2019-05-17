@@ -33,10 +33,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 #PRODUCT_ENFORCE_RRO_TARGETS := \
 #   framework-res
 
-# Wallpapers
-PRODUCT_PACKAGES += \
-    WallpapersBReel2018
-
 # Playground for GoogleCamera
 PRODUCT_PACKAGES += \
     Playground
