@@ -17,10 +17,10 @@
 -->
 <resources>
     <!-- Dirac settings -->
-    <string name="dirac_title">Mi Sound Enhancer</string>
+    <string name="dirac_title">Amplificador Dirac</string>
     <string name="dirac_summary">Otimizar qualidade de áudio</string>
-    <string name="dirac_headset_title">Escolher tipo de fone de ouvido</string>
-    <string name="dirac_preset_title">Escolha uma predefinição</string>
+    <string name="dirac_headset_title">Escolha o tipo de fone de ouvido</string>
+    <string name="dirac_preset_title">Escolha uma configuração padrão</string>
     <!-- Dirac settings: Headset types -->
     <string name="dirac_headset_default">Padrão</string>
     <string name="dirac_headset_earbuds">Mi Earbuds</string>
