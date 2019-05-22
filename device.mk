@@ -22,7 +22,6 @@
 #
 
 $(call inherit-product, vendor/xiaomi/platina/platina-vendor.mk)
-$(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/config.mk)
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
