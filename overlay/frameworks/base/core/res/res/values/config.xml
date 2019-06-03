@@ -535,9 +535,6 @@
     <!-- Whether device has a physical display cutout -->
     <bool name="config_physicalDisplayCutout">true</bool>
 
-    <!-- Whether to show battery percentage inside icon -->
-    <bool name="config_battery_percentage_show_inside_icon">true</bool>
-
     <!-- Display mode remapping table.
          If the mode names returned by the backend do not match
          the predefined and translated strings in the Settings
