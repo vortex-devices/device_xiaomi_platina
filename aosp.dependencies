@@ -6,8 +6,14 @@
   },
   {
     "remote":      "github",
-    "repository":  "nysadev/acrux-platina",
+    "repository":  "melvingb/kernel_xiaomi_platina",
     "target_path": "kernel/xiaomi/platina",
     "branch":      "pie"
   },
+   {
+    "remote":      "github",
+    "repository":  "vortex-devices/vendor_MiuiCamera",
+    "target_path": "vendor/MiuiCamera",
+    "branch":      "pie-platina"
+  } 
 ]
