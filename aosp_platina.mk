@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2019 Vortex Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,12 +23,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit from platina device
 $(call inherit-product, device/xiaomi/platina/device.mk)
 
-# Inherit some common PixelExperience stuff.
-export CUSTOM_BUILD_TYPE=OFFICIAL
+# Inherit from custom vendor
+$(call inherit-product, vendor/MiuiCamera/config.mk)
+
+# Inherit some common Vortex stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_GAPPS_ARCH := arm64
+
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+#OFFICIAL TAG
+export CUSTOM_BUILD_TYPE=OFFICIAL
 
 PRODUCT_NAME := aosp_platina
 PRODUCT_BRAND := Xiaomi
