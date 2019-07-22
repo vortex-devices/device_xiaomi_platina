@@ -47,7 +47,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="platina" \
     PRODUCT_NAME="platina" \
     PRIVATE_BUILD_DESC="platina-user 9 PKQ1.181007.001 10.3.2.0 release-keys"
-	
-    BUILD_FINGERPRINT="Xiaomi/platina/platina:9/PKQ1.181007.001/10.3.2.0:user/release-keys" \	
+
+    BUILD_FINGERPRINT="Xiaomi/platina/platina:9/PKQ1.181007.001/10.3.2.0:user/release-keys"
 
 TARGET_VENDOR := Xiaomi
