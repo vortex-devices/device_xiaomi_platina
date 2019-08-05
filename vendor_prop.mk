@@ -285,9 +285,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Enable HAL3
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.HAL3.enabled=1 \
-    persist.vendor.camera.eis.enable=1 \
-    persist.camera.HAL3.enabled=1 \
-    persist.camera.eis.enable=1
+    persist.camera.expose.aux=1 \
+    persist.camera.is_type=4 \
+    persist.camera.is_mode=4 \
+    persist.camera.max.previewfps=60 \
+    persist.vendor.camera.eis.enable=1
 
 # Expose aux camera for below packages
 PRODUCT_PROPERTY_OVERRIDES += \
