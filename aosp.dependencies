@@ -6,7 +6,7 @@
   },
   {
     "remote":      "github",
-    "repository":  "Ancient-Project/kernel_xiaomi_platina",
+    "repository":  "vortex-devices/acrux_kernel_xiaomi_sdm660",
     "target_path": "kernel/xiaomi/platina",
     "branch":      "pie"
   },
