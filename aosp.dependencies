@@ -1,19 +1,13 @@
 [
   {
-    "repository":  "vendor_xiaomi_platina",
+    "repository":  "melvingb/vendor_xiaomi_platina",
     "target_path": "vendor/xiaomi/platina",
     "branch":      "pie"
   },
   {
     "remote":      "github",
-    "repository":  "vortex-devices/acrux_kernel_xiaomi_sdm660",
+    "repository":  "RaphielGang/acrux_kernel_xiaomi_sdm660",
     "target_path": "kernel/xiaomi/platina",
     "branch":      "pie"
   },
-  {
-    "remote":      "github",
-    "repository":  "vortex-devices/vendor_MiuiCamera",
-    "target_path": "vendor/MiuiCamera",
-    "branch":      "pie-platina"
-  }
 ]
