@@ -416,10 +416,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_SOONG_NAMESPACES += \
     device/xiaomi/platina
 
-# Telephony
-PRODUCT_PACKAGES += \
-    telephony-ext
-
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
@@ -480,6 +476,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libaacwrapper \
     libnl
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
