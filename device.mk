@@ -380,6 +380,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librecovery_updater_platina
 
+# Rescue party
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.disable_rescue=true
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
