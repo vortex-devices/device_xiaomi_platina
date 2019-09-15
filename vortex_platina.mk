@@ -26,12 +26,9 @@ $(call inherit-product, device/xiaomi/platina/device.mk)
 # Inherit from custom vendor
 # $(call inherit-product, vendor/MiuiCamera/config.mk)
 
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/vortex/config/common.mk)
 
-#OFFICIAL TAG
-export CUSTOM_BUILD_TYPE=OFFICIAL
-
-PRODUCT_NAME := aosp_platina
+PRODUCT_NAME := vortex_platina
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := platina
 PRODUCT_MANUFACTURER := Xiaomi
