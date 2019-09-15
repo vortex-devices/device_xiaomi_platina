@@ -1,3 +1,3 @@
-COMMON_LUNCH_CHOICES vortex_platina-userdebug
-COMMON_LUNCH_CHOICES vortex_platina-eng
-COMMON_LUNCH_CHOICES vortex_platina-user
+add_lunch_combo vortex_platina-userdebug
+add_lunch_combo vortex_platina-eng
+add_lunch_combo vortex_platina-user
