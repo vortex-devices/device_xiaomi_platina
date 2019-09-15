@@ -1,3 +1,0 @@
-add_lunch_combo vortex_platina-userdebug
-add_lunch_combo vortex_platina-eng
-add_lunch_combo vortex_platina-user
