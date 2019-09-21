@@ -6,7 +6,7 @@
   },
   {
     "remote":      "github",
-    "repository":  "Ancient-Project/kernel_xiaomi_platina",
+    "repository":  "revolutionaosp/kernel_xiaomi_platina",
     "target_path": "kernel/xiaomi/platina",
     "branch":      "pie"
   }
