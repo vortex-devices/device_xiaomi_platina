@@ -1,2 +1,0 @@
-#============= zygote ==============
-allow zygote untrusted_app:process ptrace;
