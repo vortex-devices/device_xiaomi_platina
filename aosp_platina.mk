@@ -31,6 +31,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := aosp_platina
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := platina
