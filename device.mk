@@ -412,6 +412,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.early_gl_phase_offset_ns=3000000 \
     debug.sf.early_gl_app_phase_offset_ns=15000000
 
+# Soong
+PRODUCT_SOONG_NAMESPACES += \
+    device/xiaomi/platina
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
